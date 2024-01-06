@@ -14,6 +14,8 @@
 		836452A72B489C74006B7298 /* CheerifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836452A62B489C74006B7298 /* CheerifyTests.swift */; };
 		836452B12B489C74006B7298 /* CheerifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836452B02B489C74006B7298 /* CheerifyUITests.swift */; };
 		836452B32B489C74006B7298 /* CheerifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836452B22B489C74006B7298 /* CheerifyUITestsLaunchTests.swift */; };
+		836452C02B48ADFE006B7298 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836452BF2B48ADFE006B7298 /* MenuView.swift */; };
+		836452C22B48B04F006B7298 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836452C12B48B04F006B7298 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		836452AC2B489C74006B7298 /* CheerifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheerifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		836452B02B489C74006B7298 /* CheerifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheerifyUITests.swift; sourceTree = "<group>"; };
 		836452B22B489C74006B7298 /* CheerifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheerifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		836452BF2B48ADFE006B7298 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		836452C12B48B04F006B7298 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				836452952B489C73006B7298 /* CheerifyApp.swift */,
 				836452972B489C73006B7298 /* ContentView.swift */,
+				836452C12B48B04F006B7298 /* AddView.swift */,
+				836452BF2B48ADFE006B7298 /* MenuView.swift */,
 				836452992B489C74006B7298 /* Assets.xcassets */,
 				8364529B2B489C74006B7298 /* Preview Content */,
 			);
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836452C22B48B04F006B7298 /* AddView.swift in Sources */,
 				836452982B489C73006B7298 /* ContentView.swift in Sources */,
 				836452962B489C73006B7298 /* CheerifyApp.swift in Sources */,
+				836452C02B48ADFE006B7298 /* MenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
